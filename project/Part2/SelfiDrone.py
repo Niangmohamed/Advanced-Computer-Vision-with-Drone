@@ -3,7 +3,7 @@ import time
 from djitellopy import tello
 import cv2
 import cvzone
-
+# Hello Niang
 hi, wi, = 480, 640
 #                   P   I  D
 xPID = cvzone.PID([0.22, 0, 0.1], wi // 2)
